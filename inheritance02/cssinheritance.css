@@ -1,0 +1,24 @@
+ * { 
+    background-color: lightcyan;
+} 
+
+.cl1 {
+    background-color: lightcoral;
+} 
+
+ #id1 { 
+     background-color: lightgreen;       /*order of inheritance-id>>class>>element(ex-div)>>*   */
+} 
+
+div { 
+     background-color: lightseagreen;  
+} 
+
+#id1 { 
+     background-color:lightyellow;  /* if we gave two values to id or element or class, the 2nd value take precedence over 1st  */
+}  
+
+.cl1 {
+     background-color: lightskyblue; 
+}
+

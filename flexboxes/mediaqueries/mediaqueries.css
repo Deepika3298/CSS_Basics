@@ -1,0 +1,41 @@
+#samplediv {
+    height: 300px;
+    width: 300px;
+    background-color: indianred;
+}
+
+@media (max-width:1500px) and (min-width:1000px) {
+    #samplediv {
+        background-color: darkcyan;
+    }
+}
+
+@media (max-width:1000px) and (min-width:750px){
+    #samplediv {
+        width: 200px;
+        background-color: peru;
+    }
+}
+
+@media (max-width:750px) and (min-width:500px) {
+    #samplediv {
+        background-color: mediumvioletred;
+    }
+}
+
+@media (max-width:500px) {
+    #samplediv {
+        width: 100px;
+        background-color: green;
+    }
+}
+
+@media (min-width:750px) and (orientation: landscape) {
+/* for different devices like in mobile on landscape view */
+}
+
+@media (not (color)) {
+    #samplediv {
+        background-color: gray;
+    }
+}/* for devices which don`t support colors */

@@ -1,0 +1,23 @@
+/* li li{
+    display: none;
+}
+
+li:hover {
+    color: red;
+}
+
+li:hover li {         combinators and pseudo-classes
+    display:block;
+}  */
+
+ul ul{
+    display: none;
+}
+
+li:hover {
+    color: red;
+}
+
+li:hover>ul {          
+    display:block;
+}

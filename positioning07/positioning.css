@@ -1,0 +1,40 @@
+#p2 {
+    position: static;  /*this is default*/
+    /*position: relative;*/
+    /*position: fixed;*/
+    /*position: absolute;*/
+    /*position: sticky;*/
+}
+
+div {
+    background-color: lightcyan;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+#div2 {
+     position: fixed;
+    bottom: 30px;
+}
+
+#div3 {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    /*right: 30px;*/
+    /*bottom: 40px;*/
+    /*bottom: -40px;*/
+    /*position: fixed;
+    /*top: 30px;*/
+    /*left: 30px;
+    bottom: 30px;*/
+    /*position: absolute;
+    bottom: 30px;
+    left: 30px;*/
+}
+
+#div1 {
+    position: sticky;
+    top: 0px;
+}

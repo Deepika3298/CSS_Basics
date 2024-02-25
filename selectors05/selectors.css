@@ -1,0 +1,38 @@
+li {
+   font-weight: bold; 
+}
+
+/* a>b direct child */
+ul>li {
+    color: blue;
+}
+
+ol> li {
+    color: red;
+}
+
+
+/* a b child or child of child */
+ul ul {
+    font-style: italic;
+}
+
+ul li {
+    font-style: italic;
+}
+
+ul li li {
+    font-style: italic;
+}
+
+
+/* a+b next sibling */
+ol+ul {
+    background-color: rgb(209, 21, 153);
+}
+
+
+/* a~b one of next sibling */
+ol~ul {
+    background-color: green;
+}

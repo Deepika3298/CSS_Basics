@@ -1,0 +1,15 @@
+#div1 {
+    height:70px;
+    width:70px;
+    margin: 150px;
+    background-color: orange;
+   /* transform: translate(30px,30px); */
+   /* transform: scale(2);  increase or decrease the size of div        /*the following transform value gets priority over previous value  */
+   /* transform: skew(30deg,0); use margin */
+   /* transform: rotate(45deg); */
+   /* transform: rotateZ(60deg); */
+   /* transform:rotateY(45deg) ; */
+   /* transform: rotateX(30deg); */
+   /* transform: scaleY(-0.5); for rotation */
+   transform: translateX(20px);
+}

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    text-align: center;
+    /* text-decoration: underline; */
+    color: crimson;
+    background-color: lightblue;
+    font-size: 50px;
+}
+
+.text {
+    color: black;
+}
+
+.content {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="radio"] {
+    margin-right: 2rem;
+}
+
+.submit{
+    background-color: lightblue;
+    border: 1px solid black;
+    /* border-radius: 10px; */
+    width: 100px;
+    height: 30px;
+}
+.submit:hover{
+    background-color:blue ;
+    color: white;
+    border-radius: 10px;
+}
